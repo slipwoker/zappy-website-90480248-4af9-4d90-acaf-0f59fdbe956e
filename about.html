@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972527114654" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972527114654';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -868,7 +868,7 @@
           <!-- Decorative Route Line SVG -->
           <div class="about-story-section__route-decoration" aria-hidden="true">
             <svg data-no-icon-edit="true" aria-hidden="true" width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 35 Q 30 5, 60 20 T 115 5" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 4" fill="none" opacity="0.6"/>
+              <path d="M5 35 Q 30 5, 60 20 T 115 5" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 4" fill="none" opacity="0.6"></path>
             </svg>
           </div>
         </div>
@@ -880,7 +880,7 @@
   <!-- Bottom Divider: Gentle Curved Band -->
   <div class="about-story-section__divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,40 Q150,20 300,35 T600,30 Q750,25 900,35 T1200,30 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,40 Q150,20 300,35 T600,30 Q750,25 900,35 T1200,30 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -894,21 +894,21 @@
     <div class="about-values-section__grid">
       <article class="about-values-section__card">
         <div class="about-values-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
         </div>
         <h3 class="about-values-section__card-title">הקשבה קשובה</h3>
         <p class="about-values-section__card-text">אנחנו מקדישים זמן להבין בדיוק מה אתם מחפשים – סוג הרכב, מספר המקומות, וסגנון הנסיעה. כל פרט חשוב כדי להתאים לכם את הרכב הנכון ביותר.</p>
       </article>
       <article class="about-values-section__card">
         <div class="about-values-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/><line x1="12" y1="22" x2="12" y2="15.5"/><polyline points="22 8.5 12 15.5 2 8.5"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline></svg>
         </div>
         <h3 class="about-values-section__card-title">התאמה מעשית</h3>
         <p class="about-values-section__card-text">בין אם אתם צריכים ג'יפ לשטח, ג'יפון עירוני או רכב מסחרי לעסק – אנחנו מתאימים את הרכב למשימה. לא פחות, לא יותר – בדיוק מה שאתם צריכים.</p>
       </article>
       <article class="about-values-section__card">
         <div class="about-values-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
         </div>
         <h3 class="about-values-section__card-title">תקשורת בגובה העיניים</h3>
         <p class="about-values-section__card-text">אנחנו מדברים בשפה פשוטה וברורה, בלי מונחים מקצועיים מיותרים. כל שאלה מקבלת תשובה כנה, וכל לקוח מקבל יחס אישי לאורך כל הדרך.</p>
@@ -917,7 +917,7 @@
   </div>
   <div class="about-values-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,45 Q60,38 120,42 T240,36 Q300,40 360,34 T480,42 Q540,36 600,40 T720,34 Q780,38 840,42 T960,36 Q1020,40 1080,34 T1200,42 L1200,80 Z" fill="#E8E2D9"/>
+      <path d="M0,80 L0,45 Q60,38 120,42 T240,36 Q300,40 360,34 T480,42 Q540,36 600,40 T720,34 Q780,38 840,42 T960,36 Q1020,40 1080,34 T1200,42 L1200,80 Z" fill="#E8E2D9"></path>
     </svg>
   </div>
 </section>
@@ -932,7 +932,7 @@
             <article class="about-reviews-section__card about-reviews-section__card--large">
                 <div class="about-reviews-section__quote-mark" aria-hidden="true">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15 10H5V30H25V10H15ZM45 10H35V30H55V10H45Z" fill="var(--accent)" opacity="0.15"/>
+                        <path d="M15 10H5V30H25V10H15ZM45 10H35V30H55V10H45Z" fill="var(--accent)" opacity="0.15"></path>
                     </svg>
                 </div>
                 <blockquote class="about-reviews-section__quote">
@@ -951,11 +951,11 @@
             <div class="about-reviews-section__stack">
                 <article class="about-reviews-section__card about-reviews-section__card--small">
                     <div class="about-reviews-section__stars" aria-label="5 מתוך 5 כוכבים">
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
                     </div>
                     <blockquote class="about-reviews-section__quote">
                         <p>"חיפשתי רכב להשכרה לטווח ארוך ומצאתי את היחס האישי שכל כך חיפשתי. המליצו לי על רכב שהתאים בדיוק לצרכים שלי, לא ניסו למכור לי משהו יקר יותר."</p>
@@ -971,11 +971,11 @@
 
                 <article class="about-reviews-section__card about-reviews-section__card--small">
                     <div class="about-reviews-section__stars" aria-label="5 מתוך 5 כוכבים">
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
-                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"/></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
+                        <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="var(--accent)"><path d="M10 1L12.39 6.26L18.18 7.27L13.87 11.52L14.78 17.38L10 14.96L5.22 17.38L6.13 11.52L1.82 7.27L7.61 6.26L10 1Z"></path></svg>
                     </div>
                     <blockquote class="about-reviews-section__quote">
                         <p>"הגעתי דרך חיפוש של 'השכרת רכב בקרבתי' ולא התאכזבתי. התהליך היה מהיר, שקוף, והרכב היה במצב מעולה. ממליץ בחום לכל מי שמחפש שירות השכרת רכב אמין."</p>
@@ -995,7 +995,7 @@
     <!-- Bottom Divider -->
     <div class="about-reviews-section__divider-wrapper" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,80 L0,45 Q150,55 300,40 T600,45 Q750,35 900,45 T1200,40 L1200,80 Z" fill="var(--bg-light)"/>
+            <path d="M0,80 L0,45 Q150,55 300,40 T600,45 Q750,35 900,45 T1200,40 L1200,80 Z" fill="var(--bg-light)"></path>
         </svg>
     </div>
 </section>
@@ -1015,7 +1015,7 @@
       <a href="/contact" class="about-cta-button">
         <span>צור קשר עכשיו</span>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-element-type="icon" data-icon-type="svg">
-          <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
       </a>
       <p class="about-cta-example">
@@ -1052,34 +1052,32 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:cars7114654@gmail.com">cars7114654@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972527114654">+972527114654</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">בכל הארץ, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972527114654" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1101,7 +1099,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972527114654" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

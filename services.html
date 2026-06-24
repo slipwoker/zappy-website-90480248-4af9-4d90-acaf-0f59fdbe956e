@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972527114654" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972527114654';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -846,8 +846,8 @@
             <article class="services-intro-card">
                 <div class="services-intro-card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 11L7 7H17L19 11M5 11V17H7V15H17V17H19V11M5 11H19M7 11H17M8 13H8.01M16 13H16.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M3 11L5 7M21 11L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5 11L7 7H17L19 11M5 11V17H7V15H17V17H19V11M5 11H19M7 11H17M8 13H8.01M16 13H16.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M3 11L5 7M21 11L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </div>
                 <h3>ג'יפ</h3>
@@ -858,8 +858,8 @@
             <article class="services-intro-card">
                 <div class="services-intro-card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 13L7 10H17L19 13M5 13V18H7V16H17V18H19V13M5 13H19M7 13H17M8 14H8.01M16 14H16.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M9 8V10M15 8V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5 13L7 10H17L19 13M5 13V18H7V16H17V18H19V13M5 13H19M7 13H17M8 14H8.01M16 14H16.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M9 8V10M15 8V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </div>
                 <h3>ג'יפון</h3>
@@ -870,11 +870,11 @@
             <article class="services-intro-card">
                 <div class="services-intro-card-icon">
                     <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 7H7L9 4H15L17 7H21V17H3V7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                        <path d="M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <path d="M5 15H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        <circle cx="8" cy="18" r="1.5" fill="currentColor"/>
-                        <circle cx="16" cy="18" r="1.5" fill="currentColor"/>
+                        <path d="M3 7H7L9 4H15L17 7H21V17H3V7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                        <path d="M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M5 15H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <circle cx="8" cy="18" r="1.5" fill="currentColor"></circle>
+                        <circle cx="16" cy="18" r="1.5" fill="currentColor"></circle>
                     </svg>
                 </div>
                 <h3>רכב מסחרי</h3>
@@ -886,7 +886,7 @@
     <!-- Bottom SVG Divider -->
     <div class="services-intro-divider-wrapper">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,80 L0,45 Q60,35 120,42 T240,38 Q300,45 360,35 T480,42 Q540,38 600,45 T720,35 Q780,42 840,38 T960,45 Q1020,35 1080,42 T1200,38 L1200,80 Z" fill="var(--bg-light)"/>
+            <path d="M0,80 L0,45 Q60,35 120,42 T240,38 Q300,45 360,35 T480,42 Q540,38 600,45 T720,35 Q780,42 840,38 T960,45 Q1020,35 1080,42 T1200,38 L1200,80 Z" fill="var(--bg-light)"></path>
         </svg>
     </div>
 </section>
@@ -903,7 +903,7 @@
       <ul class="services-showcase-list">
         <li class="services-showcase-list-item">
           <div class="services-showcase-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 1L12.5 7H19L13.5 11L15 17L10 13L5 17L6.5 11L1 7H7.5L10 1Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 1L12.5 7H19L13.5 11L15 17L10 13L5 17L6.5 11L1 7H7.5L10 1Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path></svg>
           </div>
           <div class="services-showcase-item-content">
             <h3 class="services-showcase-item-title">חוויית נהיגה מותאמת</h3>
@@ -912,7 +912,7 @@
         </li>
         <li class="services-showcase-list-item">
           <div class="services-showcase-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 1L12.5 7H19L13.5 11L15 17L10 13L5 17L6.5 11L1 7H7.5L10 1Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 1L12.5 7H19L13.5 11L15 17L10 13L5 17L6.5 11L1 7H7.5L10 1Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path></svg>
           </div>
           <div class="services-showcase-item-content">
             <h3 class="services-showcase-item-title">קיבולת ונוסעים</h3>
@@ -921,7 +921,7 @@
         </li>
         <li class="services-showcase-list-item">
           <div class="services-showcase-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 1L12.5 7H19L13.5 11L15 17L10 13L5 17L6.5 11L1 7H7.5L10 1Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 1L12.5 7H19L13.5 11L15 17L10 13L5 17L6.5 11L1 7H7.5L10 1Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path></svg>
           </div>
           <div class="services-showcase-item-content">
             <h3 class="services-showcase-item-title">סוגי רכב מגוונים</h3>
@@ -931,7 +931,7 @@
       </ul>
       <a href="#" class="services-showcase-cta">
         <span>מצא את הרכב שלך</span>
-        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
       </a>
     </article>
 
@@ -949,8 +949,8 @@
   <!-- Bottom Divider -->
   <div class="services-showcase-divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,25 L1200,55 L1200,80 Z" fill="#FAF7F4"/>
-      <line x1="0" y1="25" x2="1200" y2="55" stroke="var(--accent)" stroke-width="2"/>
+      <path d="M0,80 L0,25 L1200,55 L1200,80 Z" fill="#FAF7F4"></path>
+      <line x1="0" y1="25" x2="1200" y2="55" stroke="var(--accent)" stroke-width="2"></line>
     </svg>
   </div>
 </section>
@@ -965,8 +965,8 @@
       <div class="services-benefit-card">
         <div class="services-benefit-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" class="services-benefit-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            <path d="M12 20L18 26L28 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5" fill="none"></circle>
+            <path d="M12 20L18 26L28 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <div class="services-benefit-content">
@@ -977,11 +977,11 @@
       <div class="services-benefit-card">
         <div class="services-benefit-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" class="services-benefit-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            <rect x="11" y="11" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2"/>
-            <rect x="21" y="11" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2"/>
-            <rect x="11" y="21" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2"/>
-            <rect x="21" y="21" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2"/>
+            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5" fill="none"></circle>
+            <rect x="11" y="11" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2"></rect>
+            <rect x="21" y="11" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2"></rect>
+            <rect x="11" y="21" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2"></rect>
+            <rect x="21" y="21" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="2"></rect>
           </svg>
         </div>
         <div class="services-benefit-content">
@@ -992,9 +992,9 @@
       <div class="services-benefit-card">
         <div class="services-benefit-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" class="services-benefit-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            <path d="M13 16H27M13 20H27M13 24H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="28" cy="20" r="3" stroke="currentColor" stroke-width="2"/>
+            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5" fill="none"></circle>
+            <path d="M13 16H27M13 20H27M13 24H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="28" cy="20" r="3" stroke="currentColor" stroke-width="2"></circle>
           </svg>
         </div>
         <div class="services-benefit-content">
@@ -1005,9 +1005,9 @@
       <div class="services-benefit-card">
         <div class="services-benefit-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" class="services-benefit-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            <path d="M20 12C20 12 14 17 14 22C14 25.3137 16.6863 28 20 28C23.3137 28 26 25.3137 26 22C26 17 20 12 20 12Z" stroke="currentColor" stroke-width="2"/>
-            <circle cx="20" cy="22" r="2" fill="currentColor"/>
+            <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5" fill="none"></circle>
+            <path d="M20 12C20 12 14 17 14 22C14 25.3137 16.6863 28 20 28C23.3137 28 26 25.3137 26 22C26 17 20 12 20 12Z" stroke="currentColor" stroke-width="2"></path>
+            <circle cx="20" cy="22" r="2" fill="currentColor"></circle>
           </svg>
         </div>
         <div class="services-benefit-content">
@@ -1019,14 +1019,14 @@
   </div>
   <div class="services-benefits-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0" y="0" width="1200" height="80" fill="var(--bg-light)"/>
+      <rect x="0" y="0" width="1200" height="80" fill="var(--bg-light)"></rect>
       <defs>
         <linearGradient id="servicesBenefitsGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="var(--bg-light)" stop-opacity="0"/>
-          <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="1"/>
+          <stop offset="0%" stop-color="var(--bg-light)" stop-opacity="0"></stop>
+          <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <rect x="0" y="0" width="1200" height="80" fill="url(#servicesBenefitsGrad)"/>
+      <rect x="0" y="0" width="1200" height="80" fill="url(#servicesBenefitsGrad)"></rect>
     </svg>
   </div>
 </section>
@@ -1055,7 +1055,7 @@
           </div>
         </div>
         <div class="services-case-studies-section__recommendation">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           <span>המלצה: Toyota Land Cruiser או Mercedes Sprinter</span>
         </div>
       </article>
@@ -1076,7 +1076,7 @@
           </div>
         </div>
         <div class="services-case-studies-section__recommendation">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           <span>המלצה: Suzuki Jimny או Jeep Renegade</span>
         </div>
       </article>
@@ -1097,7 +1097,7 @@
           </div>
         </div>
         <div class="services-case-studies-section__recommendation">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           <span>המלצה: Ford Transit או Fiat Ducato</span>
         </div>
       </article>
@@ -1133,34 +1133,32 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:cars7114654@gmail.com">cars7114654@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972527114654">+972527114654</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">בכל הארץ, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972527114654" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1182,7 +1180,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972527114654" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

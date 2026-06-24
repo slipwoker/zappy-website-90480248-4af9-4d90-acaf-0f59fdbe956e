@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972527114654" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972527114654';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -852,13 +852,13 @@
     <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="index-hero-fade" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="var(--primary)" stop-opacity="0"/>
-          <stop offset="60%" stop-color="var(--primary)" stop-opacity="0.08"/>
-          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"/>
+          <stop offset="0%" stop-color="var(--primary)" stop-opacity="0"></stop>
+          <stop offset="60%" stop-color="var(--primary)" stop-opacity="0.08"></stop>
+          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,35 Q80,20 160,32 T320,25 Q400,18 480,30 T640,22 Q720,15 800,28 T960,20 Q1040,12 1120,25 T1200,18 L1200,80 Z" fill="var(--bg-light)"/>
-      <path d="M0,80 L0,68 L1200,68 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,35 Q80,20 160,32 T320,25 Q400,18 480,30 T640,22 Q720,15 800,28 T960,20 Q1040,12 1120,25 T1200,18 L1200,80 Z" fill="var(--bg-light)"></path>
+      <path d="M0,80 L0,68 L1200,68 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -879,7 +879,7 @@
             <div class="index-features-section__feature-item">
               <div class="index-features-section__feature-icon">
                 <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M17 8l4 4-4 4M3 12h16M7 4v16"/>
+                  <path d="M17 8l4 4-4 4M3 12h16M7 4v16"></path>
                 </svg>
               </div>
               <div class="index-features-section__feature-text">
@@ -892,8 +892,8 @@
             <div class="index-features-section__feature-item">
               <div class="index-features-section__feature-icon">
                 <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M8 7h8M8 11h6M4 17h16a2 2 0 002-2V5a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                  <path d="M12 17v4M8 21h8"/>
+                  <path d="M8 7h8M8 11h6M4 17h16a2 2 0 002-2V5a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                  <path d="M12 17v4M8 21h8"></path>
                 </svg>
               </div>
               <div class="index-features-section__feature-text">
@@ -906,7 +906,7 @@
             <div class="index-features-section__feature-item">
               <div class="index-features-section__feature-icon">
                 <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8zM16 3.13a4 4 0 010 7.75"/>
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8zM16 3.13a4 4 0 010 7.75"></path>
                 </svg>
               </div>
               <div class="index-features-section__feature-text">
@@ -968,8 +968,8 @@
   <!-- Bottom divider: shallow curved cut with terracotta line -->
   <div class="index-features-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,25 Q150,15 300,28 T600,22 Q750,18 900,26 T1200,20 L1200,80 Z" fill="var(--bg-light)"/>
-      <path d="M0,27 Q150,17 300,30 T600,24 Q750,20 900,28 T1200,22" fill="var(--bg-light)" stroke="var(--accent)" stroke-width="2" opacity="0.6"/>
+      <path d="M0,80 L0,25 Q150,15 300,28 T600,22 Q750,18 900,26 T1200,20 L1200,80 Z" fill="var(--bg-light)"></path>
+      <path d="M0,27 Q150,17 300,30 T600,24 Q750,20 900,28 T1200,22" fill="var(--bg-light)" stroke="var(--accent)" stroke-width="2" opacity="0.6"></path>
     </svg>
   </div>
 </section>
@@ -996,8 +996,8 @@
       <!-- Connector 1 -->
       <div class="index-process-section__connector" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 60 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5,10 L40,10" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 4" stroke-linecap="round" opacity="0.4"/>
-          <polyline points="38,6 42,10 38,14" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" fill="none"/>
+          <path d="M5,10 L40,10" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 4" stroke-linecap="round" opacity="0.4"></path>
+          <polyline points="38,6 42,10 38,14" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" fill="none"></polyline>
         </svg>
       </div>
 
@@ -1015,8 +1015,8 @@
       <!-- Connector 2 -->
       <div class="index-process-section__connector" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 60 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5,10 L40,10" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 4" stroke-linecap="round" opacity="0.4"/>
-          <polyline points="38,6 42,10 38,14" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" fill="none"/>
+          <path d="M5,10 L40,10" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 4" stroke-linecap="round" opacity="0.4"></path>
+          <polyline points="38,6 42,10 38,14" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" fill="none"></polyline>
         </svg>
       </div>
 
@@ -1036,7 +1036,7 @@
   <!-- Bottom divider: torn paper edge transitioning to dark section -->
   <div class="index-process-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,35 Q40,38 80,32 T160,36 Q200,40 240,33 T320,37 Q360,32 400,38 T480,34 Q520,39 560,33 T640,36 Q680,32 720,38 T800,34 Q840,39 880,33 T960,37 Q1000,32 1040,38 T1120,34 Q1160,39 1200,35 L1200,80 Z" fill="var(--bg-dark)"/>
+      <path d="M0,80 L0,35 Q40,38 80,32 T160,36 Q200,40 240,33 T320,37 Q360,32 400,38 T480,34 Q520,39 560,33 T640,36 Q680,32 720,38 T800,34 Q840,39 880,33 T960,37 Q1000,32 1040,38 T1120,34 Q1160,39 1200,35 L1200,80 Z" fill="var(--bg-dark)"></path>
     </svg>
   </div>
 </section>
@@ -1053,8 +1053,8 @@
       <article class="index-testimonials-section__card">
         <div class="index-testimonials-section__quote-mark" aria-hidden="true">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 12H8V24H14V20H10V16H16V12Z" fill="var(--accent)" opacity="0.15"/>
-            <path d="M36 12H28V24H34V20H30V16H36V12Z" fill="var(--accent)" opacity="0.15"/>
+            <path d="M16 12H8V24H14V20H10V16H16V12Z" fill="var(--accent)" opacity="0.15"></path>
+            <path d="M36 12H28V24H34V20H30V16H36V12Z" fill="var(--accent)" opacity="0.15"></path>
           </svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
@@ -1075,8 +1075,8 @@
       <article class="index-testimonials-section__card index-testimonials-section__card--offset">
         <div class="index-testimonials-section__quote-mark" aria-hidden="true">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 12H8V24H14V20H10V16H16V12Z" fill="var(--accent)" opacity="0.15"/>
-            <path d="M36 12H28V24H34V20H30V16H36V12Z" fill="var(--accent)" opacity="0.15"/>
+            <path d="M16 12H8V24H14V20H10V16H16V12Z" fill="var(--accent)" opacity="0.15"></path>
+            <path d="M36 12H28V24H34V20H30V16H36V12Z" fill="var(--accent)" opacity="0.15"></path>
           </svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
@@ -1097,8 +1097,8 @@
       <article class="index-testimonials-section__card">
         <div class="index-testimonials-section__quote-mark" aria-hidden="true">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 12H8V24H14V20H10V16H16V12Z" fill="var(--accent)" opacity="0.15"/>
-            <path d="M36 12H28V24H34V20H30V16H36V12Z" fill="var(--accent)" opacity="0.15"/>
+            <path d="M16 12H8V24H14V20H10V16H16V12Z" fill="var(--accent)" opacity="0.15"></path>
+            <path d="M36 12H28V24H34V20H30V16H36V12Z" fill="var(--accent)" opacity="0.15"></path>
           </svg>
         </div>
         <blockquote class="index-testimonials-section__quote">
@@ -1120,7 +1120,7 @@
   <!-- Bottom Divider -->
   <div class="index-testimonials-section__divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,35 Q150,20 300,30 T600,25 Q750,35 900,30 T1200,35 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,35 Q150,20 300,30 T600,25 Q750,35 900,30 T1200,35 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -1137,18 +1137,18 @@
         <div class="index-cta-section__actions">
           <a href="/contact" class="index-cta-section__btn index-cta-section__btn--primary">
             <span>צרו קשר עכשיו</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M9 18l6-6-6-6"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M9 18l6-6-6-6"></path></svg>
           </a>
           <a href="/about" class="index-cta-section__btn index-cta-section__btn--secondary">
             <span>למידע נוסף</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M9 18l6-6-6-6"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M9 18l6-6-6-6"></path></svg>
           </a>
         </div>
       </div>
       <div class="index-cta-section__backplate" aria-hidden="true">
         <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-          <path d="M100 0C44.77 0 0 44.77 0 100s44.77 100 100 100 100-44.77 100-100S155.23 0 100 0zm0 180c-44.11 0-80-35.89-80-80s35.89-80 80-80 80 35.89 80 80-35.89 80-80 80z" fill="var(--accent)" opacity="0.06"/>
-          <circle cx="160" cy="160" r="30" fill="var(--accent)" opacity="0.04"/>
+          <path d="M100 0C44.77 0 0 44.77 0 100s44.77 100 100 100 100-44.77 100-100S155.23 0 100 0zm0 180c-44.11 0-80-35.89-80-80s35.89-80 80-80 80 35.89 80 80-35.89 80-80 80z" fill="var(--accent)" opacity="0.06"></path>
+          <circle cx="160" cy="160" r="30" fill="var(--accent)" opacity="0.04"></circle>
         </svg>
       </div>
     </div>
@@ -1182,34 +1182,32 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:cars7114654@gmail.com">cars7114654@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972527114654">+972527114654</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">בכל הארץ, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972527114654" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1231,7 +1229,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972527114654" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

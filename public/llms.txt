@@ -1,0 +1,80 @@
+# yl cars — Generative Engine Optimization Map
+
+> A vehicle search or rental service that collects user details (name and email) along with vehicle preferences such as type (jeep, mini-jeep, or commercial vehicle) and number of seats. The service is designed to match customers with the right vehicle based on their specific needs. The example given features a customer named Israel Israelov looking for a jeep or commercial vehicle with 5 seats.
+
+---
+
+## Pages
+
+### בית
+https://yl-cars-90480248.zappy5.app
+מחפשים ג&#39;יפ, מיני ג&#39;יפ או רכב מסחרי? ב-yl cars נתאים לכם את הרכב המושלם לפי מספר מושבים וצרכים. מלאו פרטים עכשיו וקבלו הצעה משתלמת!
+
+### שירותים והתאמה
+https://yl-cars-90480248.zappy5.app/services
+שירות התאמה חכם שבודק עבורכם סוג רכב מועדף – ג&#39;יפ, מיני ג&#39;יפ או מסחרי – יחד עם כמות המושבים הנדרשת. לחצו לגלות איך yl cars מוצאים לכם את העסקה המשתלמת ביותר.
+
+### אודות
+https://yl-cars-90480248.zappy5.app/about
+הכירו את yl cars – שירות השכרה שנולד כדי לפתור את כאב הראש בחיפוש הרכב. אנחנו אוספים את ההעדפות שלכם ודואגים להתאמה מושלמת. בואו לשמוע למה לקוחות כמו ישראל ישראלאוב בוחרים בנו.
+
+### צור קשר
+https://yl-cars-90480248.zappy5.app/contact
+יש לכם שאלה על ג&#39;יפ, מיני ג&#39;יפ או רכב מסחרי? צרו קשר עם yl cars עוד היום! השאירו שם ומייל ונחזור אליכם עם ההצעה הכי משתלמת באזור. הדרך לרכב המושלם מתחילה כאן.
+
+### תודה שפניתם אלינו
+https://yl-cars-90480248.zappy5.app/thank-you
+yl cars - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://yl-cars-90480248.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://yl-cars-90480248.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://yl-cars-90480248.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://yl-cars-90480248.zappy5.app/contact
+- Endpoint: https://yl-cars-90480248.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About yl cars
+A vehicle search or rental service that collects user details (name and email) along with vehicle preferences such as type (jeep, mini-jeep, or commercial vehicle) and number of seats. The service is designed to match customers with the right vehicle based on their specific needs. The example given features a customer named Israel Israelov looking for a jeep or commercial vehicle with 5 seats.
+
+## Target Audience
+- כל אדם המחפשלמכור רכב מכל סוג שהוא
+
+## Industry
+Automotive / Car Rental
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://yl-cars-90480248.zappy5.app/sitemap.xml
+- Robots: https://yl-cars-90480248.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://yl-cars-90480248.zappy5.app/llms-full.txt

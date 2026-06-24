@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://example.com
+https://yl-cars.zappy5.app
 מחפשים ג&#39;יפ, מיני ג&#39;יפ או רכב מסחרי? ב-yl cars נתאים לכם את הרכב המושלם לפי מספר מושבים וצרכים. מלאו פרטים עכשיו וקבלו הצעה משתלמת!
 
 ### שירותים והתאמה
-https://example.com/services
+https://yl-cars.zappy5.app/services
 שירות התאמה חכם שבודק עבורכם סוג רכב מועדף – ג&#39;יפ, מיני ג&#39;יפ או מסחרי – יחד עם כמות המושבים הנדרשת. לחצו לגלות איך yl cars מוצאים לכם את העסקה המשתלמת ביותר.
 
 ### אודות
-https://example.com/about
+https://yl-cars.zappy5.app/about
 הכירו את yl cars – שירות השכרה שנולד כדי לפתור את כאב הראש בחיפוש הרכב. אנחנו אוספים את ההעדפות שלכם ודואגים להתאמה מושלמת. בואו לשמוע למה לקוחות כמו ישראל ישראלאוב בוחרים בנו.
 
 ### צור קשר
-https://example.com/contact
+https://yl-cars.zappy5.app/contact
 יש לכם שאלה על ג&#39;יפ, מיני ג&#39;יפ או רכב מסחרי? צרו קשר עם yl cars עוד היום! השאירו שם ומייל ונחזור אליכם עם ההצעה הכי משתלמת באזור. הדרך לרכב המושלם מתחילה כאן.
 
 ### תודה שפניתם אלינו
-https://example.com/thank-you
+https://yl-cars.zappy5.app/thank-you
 yl cars - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://yl-cars.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://yl-cars.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://yl-cars.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -50,8 +50,8 @@ Information about WCAG compliance and accessibility features.
 - Address: בכל הארץ, ישראל
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://yl-cars.zappy5.app/contact
+- Endpoint: https://yl-cars.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -78,6 +78,6 @@ Automotive / Car Rental
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://yl-cars.zappy5.app/sitemap.xml
+- Robots: https://yl-cars.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://yl-cars.zappy5.app/llms-full.txt

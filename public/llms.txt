@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://yl-cars-90480248.zappy5.app
+https://example.com
 מחפשים ג&#39;יפ, מיני ג&#39;יפ או רכב מסחרי? ב-yl cars נתאים לכם את הרכב המושלם לפי מספר מושבים וצרכים. מלאו פרטים עכשיו וקבלו הצעה משתלמת!
 
 ### שירותים והתאמה
-https://yl-cars-90480248.zappy5.app/services
+https://example.com/services
 שירות התאמה חכם שבודק עבורכם סוג רכב מועדף – ג&#39;יפ, מיני ג&#39;יפ או מסחרי – יחד עם כמות המושבים הנדרשת. לחצו לגלות איך yl cars מוצאים לכם את העסקה המשתלמת ביותר.
 
 ### אודות
-https://yl-cars-90480248.zappy5.app/about
+https://example.com/about
 הכירו את yl cars – שירות השכרה שנולד כדי לפתור את כאב הראש בחיפוש הרכב. אנחנו אוספים את ההעדפות שלכם ודואגים להתאמה מושלמת. בואו לשמוע למה לקוחות כמו ישראל ישראלאוב בוחרים בנו.
 
 ### צור קשר
-https://yl-cars-90480248.zappy5.app/contact
+https://example.com/contact
 יש לכם שאלה על ג&#39;יפ, מיני ג&#39;יפ או רכב מסחרי? צרו קשר עם yl cars עוד היום! השאירו שם ומייל ונחזור אליכם עם ההצעה הכי משתלמת באזור. הדרך לרכב המושלם מתחילה כאן.
 
 ### תודה שפניתם אלינו
-https://yl-cars-90480248.zappy5.app/thank-you
+https://example.com/thank-you
 yl cars - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://yl-cars-90480248.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://yl-cars-90480248.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://yl-cars-90480248.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://yl-cars-90480248.zappy5.app/contact
-- Endpoint: https://yl-cars-90480248.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -75,6 +75,6 @@ Automotive / Car Rental
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://yl-cars-90480248.zappy5.app/sitemap.xml
-- Robots: https://yl-cars-90480248.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://yl-cars-90480248.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
